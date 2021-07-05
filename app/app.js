@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use('/api', routes);
 
 
-if(true || process.env.NODE_ENV === 'production') {
+if(process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../build')))
 
   app.get('*', (req, res) => {

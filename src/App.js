@@ -1,11 +1,11 @@
-import ComponentOne from './ComponentOne/ComponentOne';
+import TokenDash from './TokenDash/TokenDash';
 import './index.css';
 import './App.css';
 
 function App() {
   return (
-      <ComponentOne />
-  );
+    <TokenDash />
+    );
 }
 
 export default App;
